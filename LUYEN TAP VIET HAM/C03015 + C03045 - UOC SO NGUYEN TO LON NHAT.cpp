@@ -23,7 +23,7 @@ int uocnt(int n){
 		    }
 		}
 	}
-return x;
+	return x;
 }
 /* VD: So 315: Xet i tu 1 den 17.74
 i=1. Chia het. 315 k nto, 1 k nto--> loai.
