@@ -15,7 +15,7 @@ bool check(int a){
 int main(){
 	int n;
 	scanf("%d", &n);
-    for(int i = pow(10,n-1); i<=pow(10,n);i++){
+        for(int i = pow(10,n-1); i<=pow(10,n);i++){
 		if(check(i)==true){
 			printf("%d ", i);
 		}
