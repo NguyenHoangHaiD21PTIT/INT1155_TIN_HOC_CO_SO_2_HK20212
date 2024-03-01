@@ -9,7 +9,7 @@ long long checknt(long long n){ // kiem tra nguyen to
 				return 0;
 			}
 		}
-	return 1;
+	        return 1;
 	}
 }
 int main(){
