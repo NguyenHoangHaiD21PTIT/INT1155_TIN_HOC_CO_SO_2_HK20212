@@ -18,16 +18,16 @@ int fibonacci(int n) {
  
 bool checkF(int n) {
 	int dem = 0;
-    for (int i = 0; fibonacci(i) <= n; i++) {
-        if(fibonacci(i)==n){
+        for (int i = 0; fibonacci(i) <= n; i++) {
+            if(fibonacci(i)==n){
         	dem++;
-    	}
-    }
-    if(dem==1){
-    	return true;
-    } else {
-    	return false;
-    }
+    	    }
+        }
+        if(dem==1){
+    	     return true;
+        } else {
+    	     return false;
+        }
 }
 
 bool checknt(int n){
