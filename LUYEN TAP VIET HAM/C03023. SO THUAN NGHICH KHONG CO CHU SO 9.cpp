@@ -2,7 +2,7 @@
 #include<math.h>
 #include<stdbool.h>
 int sodao(int n){
-	int dao = 0;
+    int dao = 0;
     while(n > 0){
         int cuoi = n % 10; 
         n /= 10; 
