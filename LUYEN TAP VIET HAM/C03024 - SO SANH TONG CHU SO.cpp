@@ -6,7 +6,7 @@ int tongcs(int n){
 		n=n/10;
 	}
 	return tong;
-	}
+}
 	
 int main(){
 	int a, b;
