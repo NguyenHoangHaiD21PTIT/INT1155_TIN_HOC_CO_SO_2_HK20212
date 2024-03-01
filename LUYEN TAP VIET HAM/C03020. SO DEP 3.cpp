@@ -6,7 +6,7 @@ bool check(int n){
 		return true;
 	} else {
 	  	while(n>0){
-		  	int n1=n%10;
+		    int n1=n%10;
 		    if(n1==6){
 		     	return true;
 		    }
