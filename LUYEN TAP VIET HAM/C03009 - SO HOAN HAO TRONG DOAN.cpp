@@ -9,4 +9,4 @@ int main(){
 	} else if (n>=8128){
 		printf("6 28 496 8128");
 	}
-	}
+}
