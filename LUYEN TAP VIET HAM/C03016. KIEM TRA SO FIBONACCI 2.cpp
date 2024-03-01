@@ -18,13 +18,13 @@ long long fibonacci(long long n) {
 }
 bool checkF(long long n) {
 	int dem = 0;
-    for (long long i = 0; fibonacci(i) <= n; i++) {
-        if(fibonacci(i)==n){
-            return true;
-            break;
-        }
-    }
-return false;
+   	for (long long i = 0; fibonacci(i) <= n; i++) {
+        	if(fibonacci(i)==n){
+            		return true;
+            		break;
+        	}
+   	 }
+	return false;
 }
 
 int main(){
