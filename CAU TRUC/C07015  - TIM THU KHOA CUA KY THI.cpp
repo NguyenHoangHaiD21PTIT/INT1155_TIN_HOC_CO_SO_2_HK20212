@@ -16,7 +16,7 @@ int main(){
 	sv a[n];
 	float max=-1;
 	for(int i=0;i<n;i++){
-		scanf ("\n");
+	    scanf ("\n");
 	    gets (a[i].ten);
 	    scanf ("%s", a[i].ngaysinh);
 	    scanf ("%f%f%f", &a[i].x ,&a[i].y , &a[i].z);
