@@ -30,15 +30,15 @@ int main(){
 				float tmp=a[i].tong;
 				a[i].tong=a[j].tong;
 				a[j].tong=tmp;
-			    int tam =a[i].stt;
-			    a[i].stt=a[j].stt;
-			    a[j].stt=tam;
-			    strcpy(b, a[i].ten);
-			    strcpy(a[i].ten,a[j].ten);
-			    strcpy(a[j].ten,b);
-			    strcpy(c, a[i].ngaysinh);
-			    strcpy(a[i].ngaysinh,a[j].ngaysinh);
-			    strcpy(a[j].ngaysinh,c);
+			        int tam =a[i].stt;
+			        a[i].stt=a[j].stt;
+			        a[j].stt=tam;
+			        strcpy(b, a[i].ten);
+			        strcpy(a[i].ten,a[j].ten);
+			        strcpy(a[j].ten,b);
+			        strcpy(c, a[i].ngaysinh);
+			        strcpy(a[i].ngaysinh,a[j].ngaysinh);
+			        strcpy(a[j].ngaysinh,c);
 			}	
 		}
 		printf("%d %s %s %.1f\n", a[i].stt,a[i].ten,a[i].ngaysinh,a[i].tong);
