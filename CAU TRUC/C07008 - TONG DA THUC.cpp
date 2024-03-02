@@ -4,8 +4,8 @@
 #include <ctype.h>
 struct dathuc{
 	char dt[1005];
-    int mu;
-    int heso;
+    	int mu;
+    	int heso;
 };
 typedef struct dathuc dathuc;
 int hs[10001];
